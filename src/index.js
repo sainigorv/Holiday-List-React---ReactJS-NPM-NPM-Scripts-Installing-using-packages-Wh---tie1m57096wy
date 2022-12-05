@@ -7,4 +7,4 @@ import App from "./components/App";
 
 // module.exports=generateCodeFromObject;
 
-// ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
