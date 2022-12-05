@@ -40,7 +40,7 @@ class App extends Component {
   addCity() {
     let arr = [];
     let j = 1;
-    this.cityList.length = 3;
+    this.cityList.length = 5;
     for (let i = 0; i < this.cityList.length; i++) {
       if (this.cityList[i].country === "India") {
         arr.push(<li key={"location" + j++}>{this.cityList[i].name}</li>);
