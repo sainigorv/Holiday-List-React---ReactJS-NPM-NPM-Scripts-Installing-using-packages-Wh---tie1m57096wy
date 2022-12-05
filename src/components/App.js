@@ -35,7 +35,7 @@ class App extends Component {
       { name: "Mount Abu", country: "India" },
       { name: "Tirupati", country: "India" },
     ];
-    this.addcity = this.addCity.bind(this);
+    this.addCity = this.addCity.bind(this);
   }
   addCity() {
     let arr = [];
